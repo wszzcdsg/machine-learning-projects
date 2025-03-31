@@ -31,7 +31,6 @@ print(x)
 
 x[0:2, :] = 12#将第1行和第2行的所有元素赋值为12
 print(x)
-
 before = id(y)#id()函数返回对象的内存地址
 y = y + x
 print(id(y) == before)#id()函数返回对象的内存地址
